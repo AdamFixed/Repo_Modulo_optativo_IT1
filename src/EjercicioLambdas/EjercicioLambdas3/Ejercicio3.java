@@ -12,11 +12,6 @@ package EjercicioLambdas.EjercicioLambdas3;
 
 //Parte Alain
 
-@FunctionalInterface
-interface Operacion {
-    int calcular(int a, int b);
-}
-
 public class Ejercicio3 {
     public static void main(String[] args) {
         int x = 10;
@@ -31,5 +26,3 @@ public class Ejercicio3 {
         System.out.println("Multiplicación: " + multiplicacion.calcular(x, y));
     }
 }
-    
-
