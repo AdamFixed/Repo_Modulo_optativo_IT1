@@ -1,4 +1,4 @@
-package banco;
+package GestionDeExcepciones.banco;
 
 import java.io.FileReader;
 import java.io.IOException;

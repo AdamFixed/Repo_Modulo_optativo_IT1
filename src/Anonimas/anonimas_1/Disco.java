@@ -1,5 +1,5 @@
 
-package anonimas_1;
+package Anonimas.anonimas_1;
 
 // Ya no implementa Comparable: el criterio de ordenación
 // se proporciona desde fuera mediante clases anónimas.

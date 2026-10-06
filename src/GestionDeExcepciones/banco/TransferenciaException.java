@@ -1,4 +1,4 @@
-package banco;
+package GestionDeExcepciones.banco;
 
 public class TransferenciaException extends Exception {
 

@@ -1,4 +1,4 @@
-package ejercicio4;
+package GestionDeExcepciones.ejercicio4;
 
 // Capa de servicio
 public class Servicio {

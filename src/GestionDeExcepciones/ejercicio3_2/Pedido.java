@@ -1,4 +1,4 @@
-package ejercicio3_2;
+package GestionDeExcepciones.ejercicio3_2;
 
 public class Pedido {
     private int numero;

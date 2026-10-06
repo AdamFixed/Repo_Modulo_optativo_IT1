@@ -1,4 +1,4 @@
-package principal;
+package GestionDeExcepciones.principal;
 
 public class Ejercicio2 {
 

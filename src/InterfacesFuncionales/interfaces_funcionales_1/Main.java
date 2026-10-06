@@ -1,4 +1,4 @@
-package interfaces_funcionales_1;
+package InterfacesFuncionales.interfaces_funcionales_1;
 
 import java.util.function.Consumer;
 import java.util.function.Function;

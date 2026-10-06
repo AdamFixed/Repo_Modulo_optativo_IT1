@@ -1,4 +1,4 @@
-package ejercicio4;
+package GestionDeExcepciones.ejercicio4;
 
 // Clase separada: simula el manejador global (equivalente a un @ControllerAdvice de Spring)
 public class ManejadorExcepciones {

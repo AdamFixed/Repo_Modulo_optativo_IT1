@@ -1,4 +1,4 @@
-package anonimas_4;
+package Anonimas.anonimas_4;
 
 public class Main {
     public static void main(String[] args) {

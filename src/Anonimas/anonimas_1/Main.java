@@ -1,4 +1,4 @@
-package anonimas_1;
+package Anonimas.anonimas_1;
 
 import java.util.ArrayList;
 import java.util.Collections;

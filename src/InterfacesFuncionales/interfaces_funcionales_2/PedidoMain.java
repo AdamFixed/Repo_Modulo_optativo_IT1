@@ -1,4 +1,4 @@
-package interfaces_funcionales_2;
+package InterfacesFuncionales.interfaces_funcionales_2;
 
 /**
  *
