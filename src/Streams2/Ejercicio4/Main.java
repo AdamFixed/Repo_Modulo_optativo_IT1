@@ -15,9 +15,6 @@ public class Main {
     public static void main(String[] args) {
         Path ruta = Paths.get("src/Streams2/Ejercicio4/reservas.txt");
 
-        int INDICE_NOMBRE = 1; 
-        int INDICE_CIUDAD = 3; 
-
         try (Stream<String> lineas = Files.lines(ruta)) {
             
             List<String> clientesFiltrados = lineas
@@ -35,9 +32,8 @@ public class Main {
                         return false;
                     })
                     
-                    .filter(datos -> datos.length > INDICE_CIUDAD && 
-                                     datos[INDICE_CIUDAD].trim().equalsIgnoreCase("Bilbao"))
-                    .map(datos -> datos[INDICE_NOMBRE].trim())
+                    .filter(datos -> datos[2].trim().equalsIgnoreCase("Bilbao"))
+                    .map(datos -> datos[1].trim())
                     .collect(Collectors.toList());
 
             System.out.println("Clientes filtrados: " + clientesFiltrados);
